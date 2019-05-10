@@ -1,7 +1,7 @@
 <template>
     <div>
-        <Header/>
-            <h1>我的界面，待制作</h1>
+        <Header title="个人中心"/>
+          <router-view/>
         <TabBar/>
     </div>
 
