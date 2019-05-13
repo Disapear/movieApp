@@ -57,7 +57,18 @@
 
 <script>
     export default {
-        name: "index"
+        name: "index",
+        mounted(){
+            this.axios.get('/api/CityList').then((res)=>{
+             //var msg = res.data.msg;
+             var citys = res.data.data.cities;
+             for(var i=0;i<2;i++){
+                 alert(citys[i].nm)
+             }
+            }).catch(function (error) {
+                alert(error);
+                });
+        }
     }
 </script>
 

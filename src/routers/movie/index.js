@@ -20,6 +20,12 @@ export  default {
             component:()=>import('@/components/Playing')
         },
         {
+            path:'detail',
+            components:{
+                detail: ()=>import('@/views/Movie/detail')
+            }
+        },
+        {
             path:'/movie',
             redirect:'playing'
         }

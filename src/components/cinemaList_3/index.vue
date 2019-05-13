@@ -45,10 +45,10 @@
 </script>
 
 <style scoped>
-    .cinema-body{height:125px;width: 90%;border-bottom: 2px solid rgb(230,230,230);margin: 0 auto;}
+    .cinema-body{height:150px;width: 90%;border-bottom: 2px solid rgb(230,230,230);margin: 0 auto;}
     .cinema_item{float: left;width:70%}
     .title{margin-top:25px;}
     .tag{margin-right:10px;font-size:10px;border:1px solid;width: 45px;text-align: center;float: left;margin-top: 10px;border-radius: 5px;color: darkorange}
     .price{color: red}
-    .item_right{margin-left:80%;line-height: 125px}
+    .item_right{margin-left:80%;line-height: 150px}
 </style>
