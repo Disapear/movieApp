@@ -4,6 +4,7 @@ import router from './routers'
 import store from './stores'
 import axios from 'axios'
 Vue.prototype.axios = axios;
+axios.defaults.withCredentials=false;
 Vue.config.productionTip = false
 
 new Vue({

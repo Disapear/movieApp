@@ -2,7 +2,7 @@
     <div>
             <Header title="正在热映"></Header>
             <div id="content">
-               <div class="movie_menu">
+               <div class="movie_menu" style=" width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;">
                    <router-link to="/movie/city"  class="city_name">
                        <span>天津</span><i class="iconfont icon-lower-triangle"></i>
                    </router-link>
@@ -42,7 +42,7 @@
 <style scoped>
 
     /*#content{ flex:1; overflow:auto; margin-bottom: 50px; width:100%; flex-direction:column;}*/
-    #content .movie_menu{ width: 100%; height: 45px; border-bottom:1px solid #e6e6e6; display: flex; justify-content:space-between; align-items:center; background:white; z-index:10;}
+    #content .movie_menu{}
     .movie_menu .city_name{ color:black;margin-left: 20px; height:100%; line-height: 45px;}
     .movie_menu .city_name:hover{text-decoration: none}
     /*.movie_menu .city_name.active{ color: #ef4238; border-bottom: 2px #ef4238 solid;}*/

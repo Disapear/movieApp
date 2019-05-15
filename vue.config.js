@@ -1,11 +1,11 @@
-module.exports = {
-    devServer : {
-        proxy:{
-            '/api':{
-                target:'http://39.97.33.178',
-                changeOrign : true
-            }
-        }
-    }
-}
-
+// module.exports = {
+//     devServer : {
+//         proxy:{
+//             '/movie':{
+//                 target:'http://localhost:8080',
+//                 changeOrign : true
+//             }
+//         }
+//     }
+// }
+//
