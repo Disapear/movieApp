@@ -9,7 +9,7 @@
     export default {
         name: "index",
         mounted() {
-
+            //ajax 请求
             this.axios.get('http://localhost:8080/cinemas').then((res)=>{
                 var cinemas = res.data;
                 for(var i=0;i<=cinemas.length;i++){
